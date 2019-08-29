@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- 选择颜色 -->
+    <com.lzp.colorselector.progress.GradientColorSeekBar
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+
+    <!-- 选择透明度 -->
+    <com.lzp.colorselector.progress.GradientColorSeekBar
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+
+</LinearLayout>

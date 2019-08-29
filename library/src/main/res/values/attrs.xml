@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="thumbColor" format="color" />
+    <attr name="thumbSize" format="dimension" />
+    <attr name="radius" format="dimension" />
+
+    <declare-styleable name="GradientColorSeekBar">
+        <attr name="progressHeight" format="dimension" />
+        <attr name="thumbColor" />
+        <attr name="thumbSize" />
+        <attr name="radius" />
+    </declare-styleable>
+
+    <declare-styleable name="GradientColorVerticalSeekBar">
+        <attr name="progressBarWidth" format="dimension" />
+        <attr name="thumbColor" />
+        <attr name="thumbSize" />
+        <attr name="radius" />
+    </declare-styleable>
+
+</resources>

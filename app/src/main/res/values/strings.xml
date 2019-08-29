@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ColorSelector</string>
+    <string name="title_activity_progress_color_selector">ProgressColorSelector</string>
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context=".ProgressColorSelectorActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#000000">
+
+        <View
+            android:id="@+id/select_color"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center" />
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal">
+
+        <com.lzp.colorselector.progress.GradientColorVerticalSeekBar
+            android:id="@+id/gradient_color_progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            app:radius="10dp"/>
+
+        <com.lzp.colorselector.progress.GradientColorVerticalSeekBar
+            android:id="@+id/saturation_color_progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="100dp"
+            android:layout_marginEnd="100dp"
+            app:thumbColor="@color/colorPrimary"/>
+
+        <com.lzp.colorselector.progress.GradientColorVerticalSeekBar
+            android:id="@+id/brightness_color_progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            app:thumbColor="@color/colorPrimary"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
